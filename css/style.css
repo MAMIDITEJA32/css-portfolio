@@ -1,0 +1,153 @@
+/* General Styles */
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif; /* Setting a default font family for body */
+}
+
+h1 {
+  margin-top: 50px;
+  margin-bottom: 0;
+  font-size: 5.62rem;
+  font-family: 'Sacramento', cursive;
+  color: #1363DF;
+}
+
+h2 {
+  width: 20%;
+  margin: 0 auto;
+  font-size: 2.5rem;
+  font-weight: normal; /* Font-weight normal already set, removed duplicate */
+  color: #1363DF;
+}
+
+p {
+  font-size: 1.25rem;
+  font-weight: 200;
+  color: #40514E;
+}
+
+hr {
+  width: 5%;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  border-color: #EAF6F6;
+  margin: 75px auto;
+}
+
+h3 {
+  color: #1363DF;
+  font-size: 1.5rem;
+}
+
+/* Layout Styles */
+.top {
+  background-color: #72FFFF;
+}
+
+.mid {
+  /* Add styling as needed */
+}
+
+.bottom {
+  background-color: #1363DF;
+}
+
+.sun {
+  height: 150px;
+  width: 150px;
+  position: relative;
+  top: 100px;
+  right: 400px;
+}
+
+.cloud {
+  position: relative;
+  right: 300px;
+  bottom: 10px;
+}
+
+.mountains {
+  height: 400px;
+  padding-top: 50px;
+  position: relative;
+  top: 18px;
+  width: 700px;
+}
+
+.mypic {
+  height: 200px;
+}
+
+.algorithm {
+  height: 150px;
+  position: absolute;
+  left: 400px;
+}
+
+.skill1 {
+  margin-left: 300px;
+}
+
+.skill-row {
+  line-height: 1.5;
+}
+
+.profile {
+  line-height: 1.5;
+}
+
+.web {
+  height: 200px;
+  position: absolute;
+  padding-top: 40px;
+  padding-left: 50px;
+}
+
+.contact-me {
+  padding-bottom: 75px;
+}
+
+/* Button Styles */
+.btn {
+  background: #1363DF;
+  background-image: linear-gradient(to bottom, #1363DF, #1363DF);
+  border-radius: 10px;
+  font-family: Arial, sans-serif; /* Ensuring font fallback */
+  color: #ffffff;
+  font-size: 26px;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #5F9DF7;
+  background-image: linear-gradient(to bottom, #5F9DF7, #5F9DF7);
+  text-decoration: none;
+}
+
+.btn-padding {
+  padding-bottom: 45px;
+}
+
+/* Icon Styles */
+i {
+  padding: 30px;
+}
+
+i:hover {
+  color: #72FFFF;
+}
+
+/* Footer Styles */
+.footer-link {
+  position: relative;
+  top: 30px;
+}
+
+.copyright {
+  color: white;
+  margin-bottom: 0;
+  padding-bottom: 20px;
+}
